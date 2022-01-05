@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Author: Harshit Pandey -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keyword" content="animations,animated,style,look">
+
+	<title>Emily Black</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/background.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel='shortcut icon' href='favicon.gif' type='image/x-icon'/>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/type-it.js"></script>
+</head>
+<body>
+	<div id="particles-js"></div>
+	<script src="js/particles.min.js"></script>
+	<script src="js/background.js"></script>
+	
+
+	<div class="container">
+		<span class="type-it" style="color:#00ff00;"></span>
+	</div>
+
+	<script>
+		var first = "Hello,";
+		var second = "I'm <strong>Harshit Pandey</strong>.";
+		var third = "Click To Know <a href='about.html'>👉About Me🦸‍♂️</a>.";
+
+		var fourth = "<a href='EmilyBlackResume.pdf'>Resume</a> • <a href='https://github.com/harshitpandey0000'>GitHub</a> • <a href='https://www.linkedin.com/in/harshit-pandey-066619229/'>LinkedIn</a> • <a href='mailto:harshitpandey0000@gmail.com'>Email</a>";
+		$('.type-it').typeIt({
+			strings: [first, second, third, fourth]
+		});
+	</script>
+	
+</body>
+</html>
